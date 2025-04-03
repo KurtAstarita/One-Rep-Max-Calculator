@@ -44,7 +44,7 @@ This project is open-source.
 
 ## Disclaimers
 
-* [1 Rep Max Calculator Disclaimer](path/to/1-rep-max-calculator-disclaimer.md)
+**Read our disclaimer here:** [1 Rep Max Calculator Disclaimer](path/to/DISCLAIMER.md)
 
 ## Embed App
 
