@@ -1,0 +1,46 @@
+/* styles.css */
+#rep-max-calculator {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    width: 300px;
+    text-align: center;
+}
+
+#rep-max-calculator label,
+#rep-max-calculator input[type="number"],
+#rep-max-calculator button {
+    display: block;
+    margin: 5px auto;
+    width: 90%;
+}
+
+#rep-max-calculator label {
+    text-align: left;
+}
+
+#rep-max-calculator input[type="number"] {
+    text-align: center;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    #rep-max-calculator {
+        padding: 15px;
+    }
+
+    #rep-max-calculator label,
+    #rep-max-calculator input[type="number"],
+    #rep-max-calculator button {
+        width: 95%;
+    }
+
+    #result {
+        font-size: 0.9em;
+    }
+}
