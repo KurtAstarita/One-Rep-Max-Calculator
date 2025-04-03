@@ -45,3 +45,7 @@ This project is open-source.
 ## Disclaimers
 
 * [1 Rep Max Calculator Disclaimer](path/to/1-rep-max-calculator-disclaimer.md)
+
+## Embed App
+
+* [How To Embed](https://post40gains.blogspot.com/p/how-to-embed-our-apps.html)
