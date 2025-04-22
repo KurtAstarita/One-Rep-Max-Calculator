@@ -1,12 +1,13 @@
-// script.js
 document.getElementById("calculate").addEventListener("click", function() {
-    // Function to sanitize input (mainly to trim whitespace)
     function sanitizeInput(input) {
-        return input.trim();
+        return DOMPurify.sanitize(input);
     }
 
-    var weight = parseFloat(sanitizeInput(document.getElementById("weight").value));
-    var reps = parseInt(sanitizeInput(document.getElementById("reps").value));
+    var weightInput = sanitizeInput(document.getElementById("weight").value);
+    var repsInput = sanitizeInput(document.getElementById("reps").value);
+
+    var weight = parseFloat(weightInput);
+    var reps = parseInt(repsInput);
 
     // Input Validation
     if (isNaN(weight) || isNaN(reps)) {
